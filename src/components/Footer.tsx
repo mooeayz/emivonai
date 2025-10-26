@@ -1,4 +1,4 @@
-import emivonLogo from "@/assets/emivon-logo.png";
+import emivonLogo from "@/assets/emivon-logo-white.png";
 import { Twitter, Linkedin, Github } from "lucide-react";
 
 const Footer = () => {
