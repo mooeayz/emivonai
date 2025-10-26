@@ -1,14 +1,24 @@
 import emivonLogo from "@/assets/emivon-logo-white.png";
 import { Twitter, Linkedin, Github } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-8">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex items-center gap-3">
             <img src={emivonLogo} alt="Emivon AI" className="w-10 h-10" />
             <span className="text-sm">© 2025 Emivon AI. All rights reserved.</span>
+          </div>
+          
+          <div className="flex items-center gap-6">
+            <Link to="/vision" className="text-sm hover:text-accent transition-colors">
+              Our Vision
+            </Link>
+            <Link to="/early-access" className="text-sm hover:text-accent transition-colors">
+              Early Access
+            </Link>
           </div>
           
           <div className="flex items-center gap-6">

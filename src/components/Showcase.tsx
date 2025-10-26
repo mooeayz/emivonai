@@ -51,7 +51,7 @@ const Showcase = () => {
             return (
               <Card 
                 key={index}
-                className="p-8 bg-background border-2 border-transparent hover:border-primary/20 rounded-2xl transition-all duration-300 group cursor-pointer glow-hover"
+                className="p-8 bg-background border-2 border-transparent hover:border-primary/20 rounded-2xl card-hover group cursor-pointer"
               >
                 <div className={`w-12 h-12 rounded-lg bg-muted flex items-center justify-center mb-4 ${colorClass} group-hover:scale-110 transition-transform duration-300`}>
                   <Icon size={24} />

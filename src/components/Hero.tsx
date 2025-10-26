@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import emivonLogo from "@/assets/emivon-logo.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -21,8 +22,8 @@ const Hero = () => {
           />
         </div>
         
-        <h1 className="text-5xl md:text-7xl mb-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-          Intelligence <br className="md:hidden" />with Soul.
+        <h1 className="text-5xl md:text-7xl mb-6 animate-fade-in leading-tight" style={{ animationDelay: '0.2s' }}>
+          Intelligence <br className="md:hidden" />with Soul
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto font-light animate-fade-in" style={{ animationDelay: '0.4s' }}>
@@ -30,12 +31,14 @@ const Hero = () => {
         </p>
         
         <div className="animate-fade-in" style={{ animationDelay: '0.6s' }}>
-          <Button 
-            size="lg" 
-            className="bg-primary hover:bg-secondary text-primary-foreground px-8 py-6 text-lg rounded-2xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
-          >
-            Get Started
-          </Button>
+          <Link to="/early-access">
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-accent text-primary-foreground px-10 py-7 text-xl rounded-2xl glow-button transition-all duration-300 hover:scale-105"
+            >
+              Get Started
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

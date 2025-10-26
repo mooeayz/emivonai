@@ -45,7 +45,7 @@ const Services = () => {
             return (
               <Card 
                 key={index}
-                className="p-8 bg-muted border-none rounded-2xl hover:shadow-lg transition-all duration-300 glow-hover group"
+                className="p-8 bg-muted border-none rounded-2xl card-hover group"
               >
                 <div className={`w-14 h-14 rounded-xl bg-background flex items-center justify-center mb-6 ${colorClass} group-hover:scale-110 transition-transform duration-300`}>
                   <Icon size={28} />
