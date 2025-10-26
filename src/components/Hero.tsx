@@ -21,7 +21,7 @@ const Hero = () => {
           />
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+        <h1 className="text-5xl md:text-7xl mb-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
           Intelligence with Soul.
         </h1>
         

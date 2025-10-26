@@ -33,7 +33,7 @@ const Showcase = () => {
     <section className="py-24 bg-muted">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Innovations</h2>
+          <h2 className="text-4xl md:text-5xl mb-4">Our Innovations</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Explore the intelligent systems we're building to shape the future
           </p>
@@ -56,7 +56,7 @@ const Showcase = () => {
                 <div className={`w-12 h-12 rounded-lg bg-muted flex items-center justify-center mb-4 ${colorClass} group-hover:scale-110 transition-transform duration-300`}>
                   <Icon size={24} />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
+                <h3 className="text-xl mb-3">{project.title}</h3>
                 <p className="text-muted-foreground leading-relaxed">{project.description}</p>
               </Card>
             );

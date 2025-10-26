@@ -4,7 +4,7 @@ const About = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+            <h2 className="text-4xl md:text-5xl text-foreground">
               Who We Are
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">

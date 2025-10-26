@@ -26,7 +26,7 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Let's Build the Future</h2>
+            <h2 className="text-4xl md:text-5xl mb-4">Let's Build the Future</h2>
             <p className="text-xl text-muted-foreground">
               Have an idea? Let's bring it to life together.
             </p>
